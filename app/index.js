@@ -22,6 +22,9 @@ export default function Page() {
         >
           Open Ayush's Profile
         </Link>
+        <Link style={styles.link} href="/home"> {/* This will redirect to home/feed since in _layout.js feed is at No.1 */}
+          Home/
+        </Link>
       </View>
     </View>
   );
